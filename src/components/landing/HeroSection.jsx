@@ -1,4 +1,4 @@
-import React from 'react';
+import { assets } from "../../assets/assets.js";
 
 const HeroSection = () => {
   return (
@@ -18,11 +18,13 @@ const HeroSection = () => {
             <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
                 <button
+                  
                   className="flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-purple-500 hover:bg-purple-600 md:py-4 md:text-lg md:px-10 transition-all duration-200 shadow-lg hover:shadow-xl"
                 >
                   Get Started
                 </button>
                 <button
+                  
                   className="flex items-center justify-center px-6 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10 transition-all duration-200 shadow-md hover:shadow-lg"
                 >
                   Sign In
@@ -34,7 +36,11 @@ const HeroSection = () => {
 
         <div className="relative">
           <div className="aspect-w-16 rounded-lg shadow-xl overflow-hidden">
-            
+            <img
+              src={assets.dashboard}
+              alt="cloudshare dashboard"
+              className="w-full h-full object-cover"
+            />
           </div>
           <div className="absolute inset-0 bg-gradient-to-t from-black opacity-10 rounded-lg"></div>
         </div>
@@ -51,4 +57,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
