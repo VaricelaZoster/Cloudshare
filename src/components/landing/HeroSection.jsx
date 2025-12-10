@@ -3,7 +3,7 @@ import { assets } from "../../assets/assets.js";
 const HeroSection = () => {
   return (
     <div className="landing-page-content relative">
-      <div className="absolute inset-0 bg-gradient-to-r from-purple-50 to-indigo-50 opacity-80 z-0 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-linear-to-r from-purple-50 to-indigo-50 opacity-80 z-0 pointer-events-none"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="pt-20 pb-16 sm:pt-24 sm:pb-20 lg:pt-32 lg:pb-28">
           <div className="text-center">
@@ -42,7 +42,7 @@ const HeroSection = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="absolute inset-0 bg-gradient-to-t from-black opacity-10 rounded-lg"></div>
+          <div className="absolute inset-0 bg-linear-to-t from-black opacity-10 rounded-lg"></div>
         </div>
 
         <div className="mt-8 text-center">
